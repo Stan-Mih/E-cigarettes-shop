@@ -1,0 +1,7 @@
+.logInContainer{
+   display: flex;
+   flex-flow: column nowrap;
+   width: 70vh;
+   height: 70vh;
+   background-color: rgb(58, 73, 73);
+}

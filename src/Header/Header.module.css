@@ -1,0 +1,29 @@
+.navWrapper{
+    display:flex ;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid black;
+    justify-content: space-evenly;
+}
+.navElement{
+    background: none;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.title{
+    display: inline-block;
+    font-size: 35px;
+    font-family: cursive;
+    color: aquamarine;
+    padding: 20px 0 50px 0;
+}
+.logInButton{
+    display: inline-block;
+    position: fixed;
+    right: 1px;
+}
+.logInForm{
+    width: 70vh;
+    height: 70vh;
+    background-color: rgb(58, 73, 73);
+}
