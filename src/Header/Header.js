@@ -17,7 +17,11 @@ function onClick() {
 
     return (
         <div className="header">
-            <div className={styles.title}>Bundy Shoes®</div>
+            <div className={styles.title}>
+                <div className={styles.titleE}>E_</div>
+                <div className={styles.titleSmoke}>_Smoke</div>
+            </div>
+            
             <button className={styles.logInButton} onClick={onClick}>Log In</button>
             <Navbar items={items} />                                   
         </div>
