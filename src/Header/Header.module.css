@@ -3,7 +3,10 @@
     flex-flow: row nowrap;
     border-bottom: 1px solid rgb(255, 255, 255);
     justify-content: space-evenly;
+    box-shadow:  -10px 0 80px #f0f, 10px 0 80px #0ff;
+   
 }
+
 .navElement{
     background: none;
     border: none;
